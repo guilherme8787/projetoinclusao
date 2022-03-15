@@ -11,51 +11,46 @@
 
 <div class="container p-4">
 
-    <div class="mb-4">
-        <p>
-            <a class="btn" style="color: white;background-color: #f73358;" data-bs-toggle="collapse" href="#collapseFaq" role="button" aria-expanded="false" aria-controls="collapseFaq">
-            Question Faq1
-            </a>
-        </p>
-        <div class="collapse " id="collapseFaq">
-            <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Faq1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Faq2</a>
+        </li>
+    </ul>
+
+    <div id="faq1">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: white; background-color: rgb(247, 51, 88);">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
             </div>
         </div>
     </div>
-    <div class="mb-4">
-        <p>
-            <a class="btn" style="color: white;background-color: #f73358;" data-bs-toggle="collapse" href="#collapseFaq2" role="button" aria-expanded="false" aria-controls="collapseFaq2">
-            Question Faq2
-            </a>
-        </p>
-        <div class="collapse" id="collapseFaq2">
-            <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </div>
-        </div>
-    </div>
-    <div class="mb-4">
-        <p>
-            <a class="btn" style="color: white;background-color: #f73358;" data-bs-toggle="collapse" href="#collapseFaq3" role="button" aria-expanded="false" aria-controls="collapseFaq3">
-            Question Faq3
-            </a>
-        </p>
-        <div class="collapse" id="collapseFaq3">
-            <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </div>
-        </div>
-    </div>
-    <div class="mb-4">
-        <p>
-            <a class="btn" style="color: white;background-color: #f73358;" data-bs-toggle="collapse" href="#collapseFaq4" role="button" aria-expanded="false" aria-controls="collapseFaq4">
-            Question Faq4
-            </a>
-        </p>
-        <div class="collapse" id="collapseFaq4">
-            <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+
+
+    <div id="faq2">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: white; background-color: rgb(247, 51, 88);">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
             </div>
         </div>
     </div>

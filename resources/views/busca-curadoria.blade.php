@@ -12,9 +12,9 @@
 <div class="container p-4">
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-4">
             <div class="mb-3">
-                <a class="btn" style="width: 100%; margin-bottom: 5px; color: white; border-radius: 0; background-color: #f73358;">Temas</a>
+                <a class="btn" style="width: 100%; margin-bottom: 5px; color: white; border-radius: 0; background-color: #f73358;">Ciclo</a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
                   <label class="form-check-label" for="disabledFieldsetCheck">
@@ -41,13 +41,42 @@
                 </div>
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-4">
             <div class="mb-3">
-                <a class="btn" style="width: 100%; margin-bottom: 5px; color: white; border-radius: 0; background-color: #4ea79b;">Ciclos</a>
+                <a class="btn" style="width: 100%; margin-bottom: 5px; color: white; border-radius: 0; background-color: #4ea79b;">Categoria</a>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
                   <label class="form-check-label" for="disabledFieldsetCheck">
                     Cultura
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                    Educação
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                    Música
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                    Entreterimento
+                  </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="mb-3">
+                <a class="btn btn-info" style="width: 100%; margin-bottom: 5px; color: white; border-radius: 0;">Disciplina</a>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                    Disciplina
                   </label>
                 </div>
                 <div class="form-check">
